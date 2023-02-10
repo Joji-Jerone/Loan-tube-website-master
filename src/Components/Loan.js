@@ -21,7 +21,7 @@ const Loan = () => {
             type="number"
             required
             value={userData["amount"]}
-            onChange={(e) => (e.target.value.length <= 20) && setUserData({ ...userData, amount: e.target.value })}
+            onChange={(e) => (e.target.value.length <= 8) && setUserData({ ...userData, amount: e.target.value })}
             placeholder="$10000" 
           />
         </div>
@@ -32,7 +32,7 @@ const Loan = () => {
             value={userData["frequency"]}
             variant="standard"
             required
-            onChange={(e) => (e.target.value > 0) &&
+            onChange={(e) =>
               setUserData({ ...userData, frequency: e.target.value })
             }
             autoWidth

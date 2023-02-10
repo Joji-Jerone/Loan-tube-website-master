@@ -21,9 +21,8 @@ const Password = () => {
           <label for="pwd">Password:</label>
           <TextField 
           type="password" id="pwd" name="pwd" 
-          onChange={(e) =>
-            (e.target.value.length >=8 ) && 
-            setUserData({ ...userData, password : e.target.value })
+          onChange={(e) => 
+            setUserData({ ...userData, password : e.target.value }) && (e.target.value.length >=8 ) 
           }required />
         </div>
       </div>

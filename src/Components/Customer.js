@@ -131,8 +131,7 @@ const Customer = () => {
               type="tel"
               value={userData["mobile"]}
               onChange={(e) =>
-                (e.target.value.length <= 10) && 
-                setUserData({ ...userData, mobile: e.target.value })
+                (setUserData({ ...userData, mobile: e.target.value })) && (e.target.value.length <= 10)
               }
               placeholder="07********"
               size="11"
