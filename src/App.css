@@ -1,0 +1,244 @@
+*{
+  border: 0cm;
+}
+
+.App {
+  overflow: hidden;
+  padding:  1% 10% ;
+  border-color: black ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+
+.App-header {
+
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 0, 0);
+  text-align: left;
+  margin-bottom: 40px;
+  background-color: #f6f6f6;
+}
+
+.agreement{
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+
+.title {
+  text-align: left;
+  font-size: x-large;
+}
+
+.password {
+  display: grid;
+  place-items: center;
+}
+
+.userdetails{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  float: left;
+  
+}
+
+.container{
+  background-color: #c3c3c3;
+}
+
+.label:hover{
+  color: rgb(255, 0, 0);
+  background-color: rgb(250, 181, 181);
+}
+
+#amount{
+  width: 45%;
+  margin: 2%;
+}
+
+#frequency{
+  width: 45%;
+  margin: 2%;
+}
+
+#loanpurpose{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+#firstName{
+  width: 30%;
+  margin: 1%;
+}
+
+#middleName{
+  width: 30%;
+  margin: 1%;
+}
+
+#lastName{
+  width: 30%;
+  margin: 1%;
+}
+
+.gender{
+  margin: 1%;
+}
+#genderid{
+  width: 45%;
+  margin: 1%;
+}
+
+#dob{
+  width: 30%;
+  margin: 1%;
+}
+
+#email{
+  width: 30%;
+  margin: 1%;
+}
+
+#mobile{
+  width: 30%;
+  margin: 1%;
+}
+
+#relationship{
+  width: 46%;
+  margin: 1%
+}
+
+#dependents{
+  width: 46%;
+  margin: 1%;
+  margin-right: 15%;
+}
+
+#postCode{
+  margin: 1%;
+  align-self: self-start;
+}
+
+#address{
+  margin: 1%;
+  width: 100%;
+}
+
+.res-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+
+#residential-status{
+  margin: 1%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#timeatthisaddress{
+  margin-top: 10%;
+  margin: 1%;
+  width: 50%;
+}
+
+.fin-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+#income{
+  margin: 1%;
+}
+
+#pay-freq{
+
+  margin: 1%;
+}
+
+#paydate{
+  margin: 1%;
+}
+
+#rent{
+  margin: 1%;
+}
+
+#employment{
+  margin: 1%;
+}
+
+#relationship{
+  margin: 1%;
+}
+
+#accnumber{
+  margin: 1%;
+}
+
+#sortcode{
+  margin: 1%;
+}
+
+#occupation{
+  margin: 1%;
+}
+
+.gender{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px 5px 5px 0px ;
+}
+
+.checkbox{
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:30px;
+  background:#ccc;
+  text-align: center;
+  font-size: larger;
+}
+
+
+input, label {
+  margin: 5px 5px;
+}
+
+
+Button{
+  float: right !important;
+  margin: 5%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wrapper-fluid{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
